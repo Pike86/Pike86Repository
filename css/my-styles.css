@@ -1,0 +1,103 @@
+
+
+/* Media Queries -- For their effect, please see the text under 'The Great Patriotic War' heading on the 'About Oceania' tab. Oceania's shifting alliances are a significant plot point of Orwell's 1984 */
+@media (min-width: 200px) and (max-width:500px){
+	.Eurasia {
+		display:none;
+	}
+}
+
+@media (min-width: 501px) and (max-width:820px){
+	.Eastasia {
+		display:none;
+	}
+}
+
+@media (min-width:821px) and (max-width: 1000px){
+	.Eurasia {
+		display:none;
+	}
+	}
+
+@media (min-width:1001px) and (max-width: 3000px){
+	.Eastasia {
+		display:none;
+	}
+}
+
+/* Background */
+
+.blackbackground {
+	background-color:#030303;
+}
+
+/* Images */
+
+.halfimage{
+	border-style:solid;
+	border-width:2px;
+	border-color:#ffffff;
+}
+
+.bigbrother {
+	max-width:85%;
+	margin:0;
+	height: auto;
+	border-style:hidden;
+	border-width:4px;
+	border-color: #ffffff;
+}
+
+/*General Layout*/
+
+body {
+	padding-top: 50px;
+}
+
+.container {
+	max-width: 950px;
+}
+
+/*Layout -- Text and Headings */
+
+.ImageCaptions {
+	color:#ffffff;
+}
+
+.SecondaryHeadline {
+	color:#ffffff;
+	text-decoration:underline;
+	background-color:darkred;
+}
+
+.jsResults {
+	color:#ffffff;
+	text-decoration:bold;
+	text-align:center;
+}
+
+
+/*Jumbotron*/
+
+.jumbotron {
+	background-color: #8b1101;
+	color: #fff;
+	border-style:solid; 
+	border-width-top: .5px;
+	border-width-bottom: .5px;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+	}
+
+/*Navbar*/
+
+.navbar-inverse {
+	border-bottom-width: 3px;
+	border-bottom-color: #ffffff;
+}
+
+body {
+	padding-top: 50px;
+}
